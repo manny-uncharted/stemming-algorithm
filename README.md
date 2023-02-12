@@ -1,1 +1,1 @@
-# stemming-algorithm
+# stemming algorithm

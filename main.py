@@ -32,11 +32,11 @@ def lovins_stemmer(word):
 
 if __name__ == "__main__":
     print("Let's train our classifier on some list of words and their stems")
-    # text = input("Enter a paragraph: ")
-    # result = train_tokens(text)
+    text = input("Enter a paragraph: ")
+    results = train_tokens(text)
 
     # Load a dataset of words and their base forms
-    results = [("dance", "dance",), ("dancing", "dance"), ("danced", "dance"),("dancer", "dance"),]
+    # results = [("dance", "dance",), ("dancing", "dance"), ("danced", "dance"),("dancer", "dance"),]
 
     # # Split the dataset into input and output
     X, y = zip(*results)
